@@ -19,8 +19,7 @@ export class ListManagerComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   addItem(title: string) {
     this.todoList.push({ title });
